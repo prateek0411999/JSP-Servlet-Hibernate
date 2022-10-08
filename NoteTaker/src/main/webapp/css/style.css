@@ -1,0 +1,8 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.purple{
+	background: purple !important;
+	color: white !important;
+}
