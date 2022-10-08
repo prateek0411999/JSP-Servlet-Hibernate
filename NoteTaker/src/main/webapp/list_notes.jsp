@@ -37,6 +37,10 @@
 			    		 		<div>
 			    		 			<p>Created At: &nbsp; <%= note.getCreated_at() %></p>
 			    		 		</div>
+			    		 		<div>
+			    		 		<a href="DeleteServlet?note_id=<%= note.getId() %>" class="btn btn-danger"> Delete </a>
+			    		 		<a href="edit.jsp?note_id=<%= note.getId() %>" class="btn btn-primary"> Update </a>
+			    		 		</div>
 			    		 	</div>
 			    		 </div>
 			    		<%
